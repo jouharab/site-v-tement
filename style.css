@@ -1,0 +1,461 @@
+
+/* header */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.navbar{
+  /* background-color: #e7f7f8 ; */
+  height: 90px;
+  border-bottom: 2px solid;
+  /* position: fixed; */
+}
+
+
+
+.texte{
+  /* margin: 80px ; */
+  color: black ;
+  text-decoration:none;
+  font-family: 'Bebas Neue', cursive;
+  transition: all 0.3s;
+}
+
+.texte:hover{
+  text-decoration:overline;
+  transform: scale(1.1);
+}
+
+/* --------------------------- */
+
+/* boutique */
+.boutiqueA{
+  display: flex;
+  flex-direction: row;
+}
+
+.boutique-gauche{
+  /* display: flex; */
+  background: #f4ebeb ;
+  width: 12%;
+  min-height: 660px; 
+  padding: 50px; 
+  padding-top: 200px;
+  
+  /* text-align: center;
+  text-decoration:none; */
+  font-family: 'Bebas Neue', cursive;
+}
+
+.boutique-gauche  ul{ 
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 8%;
+}
+
+.boutique-gauche  ul  li  a{ 
+  display: block;
+  text-align: center;
+  text-decoration:none;
+  padding: 10px; 
+  color: black;
+  transition: all 0.3s;
+}
+
+.boutique-gauche  ul  li  a:hover{ 
+  background: #ab5852;
+  color: #fff;
+  border-radius: 10%;
+}
+
+.boutiquep{
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  margin-left: 5%;
+}
+
+.boutiqueC{
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+}
+
+
+
+.boutique-produit{ 
+  text-align: center; 
+  padding: 10%; 
+  width: 300px;
+  border-bottom: 1px solid #c0c0c0; 
+}
+
+.boutique-produit h2{ 
+  color: #020202; 
+  font-family: 'Bebas Neue', cursive;
+} 
+
+.boutique-produit p{ 
+  color: #ab5852; 
+} 
+
+.boutique-produit:hover{ 
+  background: #F4EBEB;
+}
+
+#carouselExampleInterval{
+  width: 400%;
+
+  /* margin-left: 45%; */
+
+}
+
+/* -------------------------------- */
+
+/* connexion */
+
+.alert{
+  font-family: 'Bebas Neue', cursive;
+}
+
+.card{
+   width: 30rem;
+   height:25rem !important;
+   margin: 5% 10% 10% 35% ; 
+   background-color: #F4EBEB !important;
+   border-radius: 10% !important;
+}
+
+.card-body{
+  margin-left: 3%;
+  margin-top: 8%;
+  margin-right: 2%;
+}
+
+.titre{
+  width: 100%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#pseudo{
+ width: 80%;
+margin-top: 10%;
+margin-bottom: 5%;
+}
+
+label {
+  position: relative;
+}
+
+label input {
+  color: #060606;
+  padding: 3px;
+  width: 340px;
+  border-radius: 2px;
+  border: 1px solid #999699;
+  transition: all 0.2s;
+}
+
+label .password-icon {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  width: 20px;
+  color: #868686;
+  /* transition: all 0.2s; */
+}
+
+label .password-icon:hover {
+  cursor: pointer;
+  color: #ab5852;
+}
+
+label .password-icon .feather-eye-off {
+  display: none;
+}
+
+.btn{
+  color: #fff !important;
+  background-color: #ab5852!important; 
+}
+
+#button{
+   margin-top: 10%;
+  margin-left: 60%;
+}
+
+/* --------------------------------------------- */
+
+/* inscription */
+
+#butn{
+  margin-left: 70%;
+}
+
+.valide{
+  color: #000000 ;
+}
+
+/* -------------------------------- */
+
+/* profil */
+
+.t{
+  font-size: 50px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.bprofil{
+  text-decoration:none;
+  color:#ffffff;
+  background-color: #000000;
+  border-radius : 10px 10px 10px 10px;
+  padding: 1.8% ;
+  margin-left: 70%;
+
+}
+
+/* -------------------------------- */
+
+/* fiche produit */
+
+#iproduit{
+  float: left;
+  height: 30%;
+  width: 30%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#dproduit{
+ border-radius: 10px 10px 10px 10px; 
+ background-color: #f4ebeb;
+ border: #000000 1px solid;
+ margin: 4% 10% 1% 65%;
+ padding-bottom: 4%;
+}
+
+#hproduit{
+  font-family: 'Bebas Neue', cursive;
+  margin-top: 10%;
+  padding-left: 22%;
+ 
+}
+
+#hr{
+  width: 55%;
+} 
+
+#fcouleur{
+  margin-top: 5%;
+  font-family: 'Bebas Neue', cursive ;
+  font-weight:500;
+}
+
+#ftaille{
+  font-family: 'Bebas Neue', cursive ;
+  font-weight:500;
+}
+
+#fprix{
+  font-family: 'Bebas Neue', cursive ;
+  color:#ab5852;
+  font-weight:800;
+}
+
+#fdescription{
+  background-color: #ffffff;
+  /* border-radius: 5px 5px 5px 5px;  */
+  border: #000000 1px solid;
+  margin: 1% 19% 1% 17%;
+  padding-bottom: 1%;
+}
+
+#nproduit{
+  color:#868686;
+  margin-bottom: 1%;
+}
+
+#qproduit{
+  font-weight:700;
+}
+
+#quantite{
+  color: #ffffff;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 1%;
+  font-family: 'Bebas Neue', cursive ;
+  background-color:#000000;
+  border-radius: 10px;
+  border:  #000000 1px solid  ;
+  padding: 1%; 
+}
+
+#aproduit{
+  color: #ffffff;
+  font-family: 'Bebas Neue', cursive ;
+  background-color:#000000;
+  border-radius: 10px;
+  border:  #000000 1px solid  ;
+   padding: 1%; 
+}
+
+#bproduit{
+  font-family: 'Bebas Neue', cursive ;
+  text-decoration:none;
+  color: rgb(255, 255, 255);
+  background-color: #ab5852;
+  border-radius: 10px;
+  margin-left: 1%;
+  padding: 3%;
+}
+
+/* -------------------------------- */
+
+/* panier */
+
+#tabl{
+  /* border-collapse: collapse; */
+  background-color: #fff !important;
+}
+
+#tpanier{
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight:800;
+  font-size:large;
+}
+
+.lien{
+  color:#ab5852;
+}
+
+.bpanier{
+  text-decoration:none;
+  color: rgb(255, 255, 255);
+  background-color: #ab5852;
+  border-radius : 10px 5px 10px 5px;
+  padding: 1.8% ;
+  margin-left: 2%;
+}
+
+.bpanier:hover{
+  background-color: #F4EBEB;
+  color: #020202;
+  border: 1px solid #080808;
+  height:0% ;
+}
+
+.payer{
+color:#fff;
+background-color: #090909;
+margin-left: 28%;
+border: 0px solid ;
+padding: 1.5%;
+border-radius : 5px 10px 5px 10px;
+}
+
+.payer:hover{
+  color:#080808 ;
+  background-color: #ffffff;
+  border: 1px solid #080808;
+  }
+
+/* -------------------------------- */
+
+/* article */
+
+.abutton{
+  font-family: 'Bebas Neue', cursive ;
+  text-decoration:none;
+  color: rgb(255, 255, 255);
+  background-color: #ab5852;
+  border-radius: 10px;
+  padding: 1%;
+  margin-left: 27%;
+
+}
+
+
+
+#tarticle{
+  font-family: 'Bebas Neue', cursive ;
+  margin-left: 40%;
+}
+
+#particle{
+  font-family: 'IBM Plex Mono', monospace ;
+margin-left: 38%;
+}
+
+#atable{
+  width: 10%;
+  margin-left: 17% !important;
+}
+
+#atitre{
+  font-family: 'Bebas Neue', cursive ;
+}
+
+.farticle{
+margin-bottom: 1%;
+border-radius : 5px 5px 5px 5px;
+border:  #d5d5d5 1px solid  ;
+}
+
+.fh{
+  margin-left: 1%;
+ 
+  }
+
+  #formFile{
+    margin-bottom: 8%;
+  }
+  
+  #ttaille{
+    margin-left: 0%;
+  }
+
+  #ataille{
+    font-family: 'Bebas Neue', cursive ;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    border:  #d5d5d5 1px solid  ;
+    padding: 1%;
+    margin: 5%;
+  
+  }
+  
+  #valider{
+    font-family: 'Bebas Neue', cursive ;
+    background-color:#ab5852;
+    color: #fff;
+    border-radius: 10px;
+    border:  #d5d5d5 1px solid  ;
+    padding: 1% 5% 1% 5% ;
+    margin-left: 40%;
+  
+  
+  }
+
+/* --------------------------------- */
+
+/* membre */
+
+#mtable{
+  width: 10%;
+  margin-left: 13%;
+  margin-bottom: 5%;
+}
+
+#tmembre{
+  font-family: 'Bebas Neue', cursive ;
+  margin-left: 43.8%;
+  margin-top: 5%;
+}
+
+#pmembre{
+  font-family: 'IBM Plex Mono', monospace ;
+margin-left: 44.1%;
+}
+/* --------------------------------- */
+
